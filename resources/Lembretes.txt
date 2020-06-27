@@ -1,0 +1,4 @@
+﻿// Packages
+FluentValidation.DependencyInjectionExtensions
+MediatR.Extensions.Microsoft.DependencyInjection
+AutoMapper.Extensions.Microsoft.DependencyInjection
