@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A3C55BE-B145-4AFF-95A1-A003B0500A54}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		resources\Lembretes.txt = resources\Lembretes.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B56F4CA-AB2F-44DD-B1A8-5914A883FDE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C78D0ED3-0C1F-4B2D-B421-BD837A2907A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1CCFA4C5-E9D5-4047-A3BC-4269DFA21621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazulisoft.ApiCleanArchtMediatR.Domain", "src\Lazulisoft.ApiCleanArchtMediatR.Domain\Lazulisoft.ApiCleanArchtMediatR.Domain.csproj", "{DC5A079C-278D-4C84-8E76-F71B0B5197F0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC5A079C-278D-4C84-8E76-F71B0B5197F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5A079C-278D-4C84-8E76-F71B0B5197F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5A079C-278D-4C84-8E76-F71B0B5197F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5A079C-278D-4C84-8E76-F71B0B5197F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C78D0ED3-0C1F-4B2D-B421-BD837A2907A8} = {7B56F4CA-AB2F-44DD-B1A8-5914A883FDE8}
+		{1CCFA4C5-E9D5-4047-A3BC-4269DFA21621} = {7B56F4CA-AB2F-44DD-B1A8-5914A883FDE8}
+		{DC5A079C-278D-4C84-8E76-F71B0B5197F0} = {C78D0ED3-0C1F-4B2D-B421-BD837A2907A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1E891BA-5266-4A7B-9527-EE9E04888248}
