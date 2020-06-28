@@ -1,6 +1,6 @@
 ﻿namespace Lazulisoft.ApiCleanArchtMediatR.Domain.Enums
 {
-    public enum Gender : ushort
+    public enum Gender : byte
     {
         None = 0,
         Male = 1,
