@@ -11,11 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Characters\Commands\" />
     <Folder Include="Characters\Handlers\" />
     <Folder Include="Characters\MappingProfiles\" />
     <Folder Include="Characters\Validators\" />
-    <Folder Include="Characters\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
