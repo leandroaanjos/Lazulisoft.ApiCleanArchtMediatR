@@ -11,11 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Characters\MappingProfiles\" />
-    <Folder Include="Characters\Validators\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Lazulisoft.ApiCleanArchtMediatR.Domain\Lazulisoft.ApiCleanArchtMediatR.Domain.csproj" />
   </ItemGroup>
 
