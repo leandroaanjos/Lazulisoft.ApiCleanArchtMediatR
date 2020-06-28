@@ -4,4 +4,22 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="8.6.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Characters\Commands\" />
+    <Folder Include="Characters\Handlers\" />
+    <Folder Include="Characters\MappingProfiles\" />
+    <Folder Include="Characters\Validators\" />
+    <Folder Include="Characters\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lazulisoft.ApiCleanArchtMediatR.Domain\Lazulisoft.ApiCleanArchtMediatR.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

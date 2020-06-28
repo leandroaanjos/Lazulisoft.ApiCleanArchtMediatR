@@ -2,6 +2,10 @@
 Microsoft.EntityFrameworkCore (2.1.14) *
 Microsoft.EntityFrameworkCore.SqlServer (2.1.14) *
 
-FluentValidation.DependencyInjectionExtensions
-MediatR.Extensions.Microsoft.DependencyInjection
-AutoMapper.Extensions.Microsoft.DependencyInjection
+* DICA: Como estamos usando o SDK 2.1 para criar nossa API, temos que usar uma versão de package compatível. Se você tentar usar a versão 3.1 do package, diversas dependências irão atualizar, fazendo assim nosso projeto parar de funcionar.
+
+FluentValidation.DependencyInjectionExtensions (8.6.2)
+MediatR.Extensions.Microsoft.DependencyInjection (8.0.0) *
+AutoMapper.Extensions.Microsoft.DependencyInjection (7.0.0) **
+
+* Os package FluentValidation, MediatR, e AutoMapper também são necessários, porém eles são dependências dos outros packages listados acima então está tudo OK.
