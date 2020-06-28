@@ -1,4 +1,7 @@
 ﻿// Packages
+Microsoft.EntityFrameworkCore (2.1.14) *
+Microsoft.EntityFrameworkCore.SqlServer (2.1.14) *
+
 FluentValidation.DependencyInjectionExtensions
 MediatR.Extensions.Microsoft.DependencyInjection
 AutoMapper.Extensions.Microsoft.DependencyInjection
